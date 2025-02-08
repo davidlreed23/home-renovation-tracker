@@ -1,0 +1,11 @@
+Project ID,Project Name,Location,Priority,Type,Upgrade,Status,Total Cost,Payer,Start Date,Target Date,Actual Completion,Primary Responsible,Current Action Needed
+1,,"",High/Medium/Low,Required/Needed/Optional,Yes/No,Not Started,=SUMIFS('Financial Tracking'!D:D 'Financial Tracking'!A:A A2),Mother/You/Split,=TODAY(),=TODAY()+30,,You/Wife/Mother,
+
+Notes:
+1. Project ID auto-generates based on row number
+2. Location uses data validation from Location List sheet
+3. Priority Type use data validation
+4. Total Cost pulls from Financial Tracking sheet
+5. Dates use date format
+6. Status uses data validation (Not Started In Progress On Hold Completed)
+7. Use conditional formatting for Priority (Red=High Yellow=Medium Green=Low)
